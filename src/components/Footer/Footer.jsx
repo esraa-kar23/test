@@ -5,6 +5,7 @@ import icon1 from './../../../public/imges/Icon-1.png'
 import icon2 from './../../../public/imges/Icon-2.png'
 import icon3 from './../../../public/imges/Icon-3.png'
 import icon4 from './../../../public/imges/Icon-4.png'
+import { Link } from 'react-router-dom';
 import './Footer.css'
 
 export default function Footer() {
@@ -21,9 +22,9 @@ export default function Footer() {
                             <div className="ek-footerContent-2">
                                 <h4 className='ek-content-f-2'>Get help</h4>
                                 <div className="ek-links-footer-part-2">
-                                    <p><a href="#">Contact Us</a></p>
+                                    <p><Link to={'/contact'}>Contact Us</Link></p>
                                     <p><a href="#">Latest Article</a></p>
-                                    <p><a href="#">FAQ</a></p>
+                                    <p><Link to={"/faq"}>FAQ</Link></p>
                                 </div>
                             </div>
                             <div className="ek-footerContent-3">

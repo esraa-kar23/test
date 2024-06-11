@@ -51,12 +51,13 @@ a {
     font-weight: 600;
     line-height: 24px;
 }
-.ek-footerContent-2 .ek-links-footer-part-2 p   {
+.ek-footerContent-2 .ek-links-footer-part-2 p  {
     font-family: "Jost";
     font-size: 18px;
     font-weight: 500;
     color: #555555;
     line-height: 45px;
+    cursor: pointer;
 }
 
 .ek-footerContent-3 {
