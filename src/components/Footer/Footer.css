@@ -136,7 +136,7 @@ a {
 }
 
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 991px) {
     .footer {
       width: 100%;
       margin: 0 auto;
@@ -161,4 +161,8 @@ a {
     .ek-content-footer-part-4 .ek-mail {
         width: 80%;
     }
-  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px ) {
+
+}
