@@ -14,20 +14,20 @@ export default function Footer() {
             <footer className="footer">
                 <Container className='footerContainer'>
                     <div className='ek-container'>
-                        <Row className="ek-footer-part-one">
-                            <Col  className="ek-footerContent-1">
+                        <div className="ek-footer-part-one">
+                            <div  className="ek-footerContent-1">
                                 <img className='logo' src={logo} alt="" />
                                 <p className='ek-contentUnderLogo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </Col>
-                            <Col  className="ek-footerContent-2">
+                            </div>
+                            <div  className="ek-footerContent-2">
                                 <h4 className='ek-content-f-2'>Get help</h4>
                                 <div className="ek-links-footer-part-2">
                                     <p><Link to={'/contact'}>Contact Us</Link></p>
                                     <p><a href="#">Latest Article</a></p>
                                     <p><Link to={"/faq"}>FAQ</Link></p>
                                 </div>
-                            </Col>
-                            <Col  className="ek-footerContent-3">
+                            </div>
+                            <div className="ek-footerContent-3">
                                 <h4>PROGRAMS</h4>
                                 <div>
                                     <p>Art & Design</p>
@@ -36,8 +36,8 @@ export default function Footer() {
                                     <p>Languages</p>
                                     <p>Programming</p>
                                 </div>
-                            </Col>
-                            <Col  className="ek-footerContent-4">
+                            </div>
+                            <div className="ek-footerContent-4">
                                 <h4>contact us</h4>
                                 <div className="ek-content-footer-part-4">
                                     <p className='ek-address'>Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA</p>
@@ -50,13 +50,13 @@ export default function Footer() {
                                         <a href="#"><img src={icon4} /></a>
                                     </div>
                                 </div>
-                            </Col>
-                        </Row>
+                            </div>
+                        </div>
                     </div>
 
-                    <Row className="ek-footer-copyRight">
-                        <Col className='copy-right'>Copyright © 2024 LearnPress LMS | Powered by ThimPress</Col>
-                    </Row>
+                    <div className="ek-footer-copyRight">
+                        <p className='copy-right'>Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+                    </div>
                 </Container>
             </footer>
 
