@@ -55,7 +55,7 @@ export default function Footer() {
                     </div>
 
                     <Row className="ek-footer-copyRight">
-                        <Col lg={12} className='copy-right'>Copyright © 2024 LearnPress LMS | Powered by ThimPress</Col>
+                        <Col className='copy-right'>Copyright © 2024 LearnPress LMS | Powered by ThimPress</Col>
                     </Row>
                 </Container>
             </footer>

@@ -161,8 +161,7 @@ a {
     .ek-content-footer-part-4 .ek-mail {
         width: 80%;
     }
-}
-
-@media (min-width: 1024px) and (max-width: 1200px ) {
-
+    .social-media {
+        margin-top: 25px;
+    }
 }
